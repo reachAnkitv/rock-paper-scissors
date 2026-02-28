@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>GAME</h1>
+    <h1>WELOCME TO RPS GAME</h1>
     <br>
-    <img id="i1" src="stone.png" width="50">
-    <img id="i2"  src="paper.png" width="50">
-    <img id="i3"  src="scissor.png" width="50">
-    <h3>SCORE</h3>
-    <h4>yours-</h4><h4 id="ys">0</h4>
-    <h4>comps-</h4><h4 id="cs">0</h4>
-    <button id="choose">CHOOSE</button>
-    <script src="sc.js"></script>
+    <div class="rps" id="r" ><img src="rock.png"> </div>
+    <div class="rps"  id="p"  ><img src="paper.png"> </div>
+    <div class="rps"  id="s" ><img src="scissor.png"> </div>
+    <br>
+    <h4>SCORE</h4>
+    <br>
+    <p id="y">YOU</p>
+    <p id="c">COMP</p>
+    <p id="d">DRAW</p>
+    <br>
+    <p id="ys">0</p>
+    <p id="cs">0</p>
+    <p id="ds">0</p>
+    <br>
+    <button id="btn">PICK YOUR MOVE</button>
+    <br>
+    <button id="rst">RESET</button>
+    <script src="work.js"></script>
 </body>
 </html>
